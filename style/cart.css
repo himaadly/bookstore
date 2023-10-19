@@ -1,0 +1,39 @@
+/* cart.css */
+/* Add necessary styles to ensure the cart content is scrollable */
+.cart-container {
+  height: 80vh; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+/* Adjust styles for individual items in the cart */
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.cart-item-text {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart-item-price {
+  font-size: 1rem;
+  color: #555;
+}
